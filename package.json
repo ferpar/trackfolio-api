@@ -1,0 +1,15 @@
+{
+  "name": "trackfolio-api",
+  "version": "0.0.1",
+  "description": "track your currency portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "crypto",
+    "portfolio"
+  ],
+  "author": "Fernando Perez Ayala",
+  "license": "ISC"
+}
