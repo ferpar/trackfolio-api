@@ -1,6 +1,8 @@
 import express from "express";
 import bodyParser from "body-parser";
 
+import { ApiRoutes } from './routes';
+
 export class Server {
   public static bootstrap(): Server {
     return new Server();
@@ -15,6 +17,7 @@ export class Server {
     //configure application
     this.config();
 
+    //add routes
     this.routes();
   }
 
@@ -24,8 +27,6 @@ export class Server {
   }
 
   private routes(): void {
-    this.app.get("/api/ping", (req, res) => {
-      res.send("pong");
-    });
+    this.app.use(ApiRoutes.path, ApiRoutes.router)
   }
 }
