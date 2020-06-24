@@ -1,4 +1,4 @@
-export interface Currency {
+export interface ICurrency {
     id: number;
     name: string;
     symbol: string;
@@ -6,7 +6,7 @@ export interface Currency {
     quotes: Quote[];
 }
 
-export interface Quote {
+export interface IQuote {
     id: number;
     symbol: string;
     price: number;
