@@ -19,6 +19,5 @@ export class PingRoute {
 
     private get = async (req: Request, res: Response, next: NextFunction) => {
         res.send('pong');
-        next();
     }
 }

@@ -1,1 +1,1 @@
-export * from './ping-route'
+export * from './pingRoute'
