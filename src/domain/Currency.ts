@@ -6,9 +6,9 @@ export interface Currency {
     quotes: Quote[];
 }
 
-interface Quote {
+export interface Quote {
     id: number;
     symbol: string;
     price: number;
-    last_updated: string;
+    timestamp: number;
 }
