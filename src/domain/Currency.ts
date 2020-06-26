@@ -3,12 +3,12 @@ export interface ICurrency {
     name: string;
     symbol: string;
     slug: string;
-    quotes: Quote[];
+    quotes: IQuote[];
 }
 
 export interface IQuote {
-    id: number;
+    id?: number;
     symbol: string;
     price: number;
-    timestamp: number;
+    timestamp: string;
 }
