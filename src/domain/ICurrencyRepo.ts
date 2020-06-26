@@ -1,3 +1,4 @@
+import { ICurrency } from './Currency';
 export interface ICurrencyRepo {
-    saveCurrencies(): Promise<any>
+    save( currencyArray: ICurrency[]): Promise<any>
 }
