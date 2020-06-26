@@ -40,7 +40,7 @@ export class CMCOracle implements ICurrencyOracle{
                 ]
             }))
         } catch (err) {
-            console.error("Error interacting with coinmarketcap API")
+            console.error("Error interacting with coinmarketcap API", err)
         }
         return this.currencies
     }

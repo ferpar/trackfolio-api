@@ -27,7 +27,7 @@ export class CurrencyOracleStub implements ICurrencyOracle {
                 ]
             }))
         } catch (err) {
-            console.error("Error at CurrencyOracleStub")
+            console.error("Error at CurrencyOracleStub", err)
         }
         return this.currencies
     }
