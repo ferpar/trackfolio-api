@@ -3,24 +3,19 @@ import { ICurrencyOracle } from '../domain/ICurrencyOracle'
 import { ICurrency, IQuote } from '../domain/Currency'
 
 export class CMCOracle implements ICurrencyOracle{
-    public service: any;
-    public rawData: any;
+    private service: any = axios.create({
+        baseURL: process.env.CMC_API_URL,
+        headers: {
+            "X-CMC_PRO_API_KEY": process.env.CMC_API_KEY
+        }
+    });
     public currencies: any;
-    constuctor() {
-        const service: AxiosInstance = axios.create({
-            baseURL: process.env.CMC_API_URL,
-            headers: {
-                "X-CMC_PRO_API_KEY": process.env.CMC_API_KEY
-            }
-        });
-        this.service = service
-    }
 
     async getCurrencies(): Promise<ICurrency[]> {
         try {
             const timestamp: string = new Date().toISOString()
             const rawData = await this.service.get('/cryptocurrency/listings/latest')
-            this.currencies = rawData.data.map( (rawCurrency: any): ICurrency => ({
+            this.currencies = rawData.data.data.map( (rawCurrency: any): ICurrency => ({
                 id: rawCurrency.id,
                 name: rawCurrency.name,
                 symbol: rawCurrency.symbol,
