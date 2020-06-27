@@ -43,6 +43,7 @@
       "ts",
       "tsx",
       "js"
-    ]
+    ],
+    "testEnvironment": "node"
   }
 }
