@@ -11,13 +11,17 @@ export class CurrencyService {
         this.currencyRepo = currencyRepo
     }
 
-    public async getUpdatedCurrencies(): Promise<ICurrency[]> {
+    public async updateCurrencyStore(): Promise<ICurrency[]> {
         return await this.currencyOracle.getCurrencies()
     }
 
     public async storeCurrencies() {
-        const currencyArray: ICurrency[] = await this.getUpdatedCurrencies()
+        const currencyArray: ICurrency[] = await this.updateCurrencyStore()
         return await this.currencyRepo.save(currencyArray)
+    }
+
+    public async getCurrencies(currencyIds: number[]): Promise<ICurrency[]> {
+        return await this.currencyRepo.getById( currencyIds )       
     }
     
 }

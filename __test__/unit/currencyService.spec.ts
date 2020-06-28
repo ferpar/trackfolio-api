@@ -11,7 +11,7 @@ describe('currency service', () => {
         //create new service
         const currencyService = new CurrencyService( new CurrencyOracleStub(), new CurrencyRepoStub() )
         
-        const currencies: ICurrency[] = await currencyService.getUpdatedCurrencies()
+        const currencies: ICurrency[] = await currencyService.updateCurrencyStore()
 
         expect(currencies.length === currencyFixture.data.length ).toBe(true)
         expect( 'id' in currencies[0] && 'symbol' in currencies[0] ).toBe(true)
@@ -20,8 +20,20 @@ describe('currency service', () => {
         //create new service
         const currencyService = new CurrencyService( new CurrencyOracleStub(), new CurrencyRepoStub() )
 
-        const data = await currencyService.storeCurrencies()
-        
-        expect(Object.keys(data).length).toBe(currencyFixture.data.length)
+        const storedCurrencies = await currencyService.storeCurrencies()
+
+        expect(storedCurrencies.length).toBe(currencyFixture.data.length)
+    })
+    xit('retrieves currencies selected by id', async () => {
+        //create new service
+        const currencyService = new CurrencyService( new CurrencyOracleStub(), new CurrencyRepoStub() )
+
+        const idSelection = [1, 2, 52]
+
+        const selectedCurrencies = await currencyService.getCurrencies( idSelection )
+
+        //this should always match because neither of the 3 should ever fall below the 100th rank
+        expect(selectedCurrencies.map( currency => currency.symbol) )
+            .toContain( ['BTC', 'LTC', 'XRP'] )
     })
 })
