@@ -8,4 +8,8 @@ export class PgCurrencyRepo implements ICurrencyRepo {
     async save( currencyArray: ICurrency[] ): Promise<any> {
 
     }
+
+    async getById (currencyIds: number[] ): Promise<ICurrency[]> {
+        
+    }
 }
