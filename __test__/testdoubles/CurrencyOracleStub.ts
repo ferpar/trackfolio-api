@@ -6,7 +6,7 @@ export class CurrencyOracleStub implements ICurrencyOracle {
     public currencies:any;
     async getCurrencies(): Promise<ICurrency[]> {
         try {
-            const timestamp : string = new Date().toISOString()
+            const timestamp : number = new Date().getTime()
             this.currencies = rawData.data.map( (rawCurrency: any): ICurrency => ({
                 id: rawCurrency.id,
                 name: rawCurrency.name,

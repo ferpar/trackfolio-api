@@ -10,5 +10,5 @@ export interface IQuote {
     id?: number;
     symbol: string;
     price: number;
-    timestamp: string;
+    timestamp: number;
 }
