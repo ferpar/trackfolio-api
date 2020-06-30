@@ -6,11 +6,11 @@ export class PgPool {
         this.pool = new Pool( config )
     }
 
-    query( text:string, params:any, callback:any) {
+    public query( text:string, params:any, callback?:any): any {
         return this.pool.query(text, params, callback)
     }
 
-    shutdown() {
+    public shutdown() {
         return this.pool.end()
     }
 }
