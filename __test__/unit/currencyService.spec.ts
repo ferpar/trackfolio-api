@@ -4,7 +4,6 @@ import { CurrencyRepoStub } from '../testdoubles/CurrencyRepoStub'
 import { ICurrency } from '../../src/domain/Currency'
 import * as currencyFixture from '../fixtures/currencyRequest.json';
 
-
 describe('currency service', () => {
     it('gets a currency list from the oracle', async () => {
         expect.assertions(2)
@@ -24,9 +23,11 @@ describe('currency service', () => {
 
         expect(storedCurrencies.length).toBe(currencyFixture.data.length)
     })
-    xit('retrieves currencies selected by id', async () => {
+    it('retrieves currencies selected by id', async () => {
         //create new service
         const currencyService = new CurrencyService( new CurrencyOracleStub(), new CurrencyRepoStub() )
+        //store currencyFixture -in memory-
+        const storedCurrencies = await currencyService.storeCurrencies()
 
         const idSelection = [1, 2, 52]
 
@@ -34,6 +35,6 @@ describe('currency service', () => {
 
         //this should always match because neither of the 3 should ever fall below the 100th rank
         expect(selectedCurrencies.map( currency => currency.symbol) )
-            .toContain( ['BTC', 'LTC', 'XRP'] )
+            .toEqual( ['BTC', 'LTC', 'XRP'] )
     })
 })

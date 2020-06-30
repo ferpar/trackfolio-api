@@ -1,6 +1,6 @@
 import { ICurrencyRepo } from '../domain/ICurrencyRepo';
 import { ICurrency, IQuote } from '../domain/Currency';
-import { PgPool } from './PgPool';
+import { PgPool } from './pgConnection/PgPool';
 
 export class PgCurrencyRepo implements ICurrencyRepo {
     private connection: PgPool;

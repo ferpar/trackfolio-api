@@ -13,7 +13,7 @@ export class CMCOracle implements ICurrencyOracle{
 
     async getCurrencies(): Promise<ICurrency[]> {
         try {
-            const timestamp: string = new Date().toISOString()
+            const timestamp: number = new Date().getTime()
             const rawData = await this.service.get('/cryptocurrency/listings/latest')
             this.currencies = rawData.data.data.map( (rawCurrency: any): ICurrency => ({
                 id: rawCurrency.id,

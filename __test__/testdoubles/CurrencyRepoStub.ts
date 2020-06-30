@@ -27,8 +27,10 @@ export class CurrencyRepoStub implements ICurrencyRepo {
     async getById(currencyIds: number[]): Promise<ICurrency[]> {
         let selectedCurrencies : ICurrency[] = []
         try {
-            for (let id in currencyIds) {
-                selectedCurrencies.push(this.currencyObj[id])
+            for (let id of currencyIds) {
+                if (this.currencyObj[id]) {
+                    selectedCurrencies.push(this.currencyObj[id])
+                }
             }
         } catch (err) {
             console.error('Error retrieving currencies from CurrencyRepoStub', err)

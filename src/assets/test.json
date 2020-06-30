@@ -1,0 +1,910 @@
+[
+  {
+    "id": 1,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin",
+    "quotes": [
+      { "symbol": "USD", "price": 9325.7266611, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1027,
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "slug": "ethereum",
+    "quotes": [
+      { "symbol": "USD", "price": 228.561399124, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 825,
+    "name": "Tether",
+    "symbol": "USDT",
+    "slug": "tether",
+    "quotes": [
+      { "symbol": "USD", "price": 1.00090811246, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "XRP",
+    "symbol": "XRP",
+    "slug": "xrp",
+    "quotes": [
+      { "symbol": "USD", "price": 0.190357213143, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1831,
+    "name": "Bitcoin Cash",
+    "symbol": "BCH",
+    "slug": "bitcoin-cash",
+    "quotes": [
+      { "symbol": "USD", "price": 233.769440446, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3602,
+    "name": "Bitcoin SV",
+    "symbol": "BSV",
+    "slug": "bitcoin-sv",
+    "quotes": [
+      { "symbol": "USD", "price": 173.054740282, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "slug": "litecoin",
+    "quotes": [
+      { "symbol": "USD", "price": 43.2102065694, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1839,
+    "name": "Binance Coin",
+    "symbol": "BNB",
+    "slug": "binance-coin",
+    "quotes": [
+      { "symbol": "USD", "price": 16.0604000297, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1765,
+    "name": "EOS",
+    "symbol": "EOS",
+    "slug": "eos",
+    "quotes": [
+      { "symbol": "USD", "price": 2.51822918703, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2010,
+    "name": "Cardano",
+    "symbol": "ADA",
+    "slug": "cardano",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0798210395712, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3635,
+    "name": "Crypto.com Coin",
+    "symbol": "CRO",
+    "slug": "crypto-com-coin",
+    "quotes": [
+      { "symbol": "USD", "price": 0.114071352561, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2011,
+    "name": "Tezos",
+    "symbol": "XTZ",
+    "slug": "tezos",
+    "quotes": [
+      { "symbol": "USD", "price": 2.63355894425, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1975,
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "slug": "chainlink",
+    "quotes": [
+      { "symbol": "USD", "price": 4.12658917916, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 512,
+    "name": "Stellar",
+    "symbol": "XLM",
+    "slug": "stellar",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0694950990377, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3957,
+    "name": "UNUS SED LEO",
+    "symbol": "LEO",
+    "slug": "unus-sed-leo",
+    "quotes": [
+      { "symbol": "USD", "price": 1.14251443907, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 328,
+    "name": "Monero",
+    "symbol": "XMR",
+    "slug": "monero",
+    "quotes": [
+      { "symbol": "USD", "price": 64.2819864634, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1958,
+    "name": "TRON",
+    "symbol": "TRX",
+    "slug": "tron",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0158936402273, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2502,
+    "name": "Huobi Token",
+    "symbol": "HT",
+    "slug": "huobi-token",
+    "quotes": [
+      { "symbol": "USD", "price": 4.10590213421, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3408,
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "slug": "usd-coin",
+    "quotes": [
+      { "symbol": "USD", "price": 1.0027042721, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1321,
+    "name": "Ethereum Classic",
+    "symbol": "ETC",
+    "slug": "ethereum-classic",
+    "quotes": [
+      { "symbol": "USD", "price": 6.28626320194, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1376,
+    "name": "Neo",
+    "symbol": "NEO",
+    "slug": "neo",
+    "quotes": [
+      { "symbol": "USD", "price": 10.31208445, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Dash",
+    "symbol": "DASH",
+    "slug": "dash",
+    "quotes": [
+      { "symbol": "USD", "price": 70.6969873953, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1720,
+    "name": "IOTA",
+    "symbol": "MIOTA",
+    "slug": "iota",
+    "quotes": [
+      { "symbol": "USD", "price": 0.21999770979, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1518,
+    "name": "Maker",
+    "symbol": "MKR",
+    "slug": "maker",
+    "quotes": [
+      { "symbol": "USD", "price": 518.482226918, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3794,
+    "name": "Cosmos",
+    "symbol": "ATOM",
+    "slug": "cosmos",
+    "quotes": [
+      { "symbol": "USD", "price": 2.61459397155, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1437,
+    "name": "Zcash",
+    "symbol": "ZEC",
+    "slug": "zcash",
+    "quotes": [
+      { "symbol": "USD", "price": 51.7240831949, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3662,
+    "name": "HedgeTrade",
+    "symbol": "HEDG",
+    "slug": "hedgetrade",
+    "quotes": [
+      { "symbol": "USD", "price": 1.67276995676, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3077,
+    "name": "VeChain",
+    "symbol": "VET",
+    "slug": "vechain",
+    "quotes": [
+      { "symbol": "USD", "price": 0.008588877714, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 873,
+    "name": "NEM",
+    "symbol": "XEM",
+    "slug": "nem",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0448022076246, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2566,
+    "name": "Ontology",
+    "symbol": "ONT",
+    "slug": "ontology",
+    "quotes": [
+      { "symbol": "USD", "price": 0.567872032623, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1697,
+    "name": "Basic Attention Token",
+    "symbol": "BAT",
+    "slug": "basic-attention-token",
+    "quotes": [
+      { "symbol": "USD", "price": 0.217692020496, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "slug": "dogecoin",
+    "quotes": [
+      { "symbol": "USD", "price": 0.00244671851782, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3897,
+    "name": "OKB",
+    "symbol": "OKB",
+    "slug": "okb",
+    "quotes": [
+      { "symbol": "USD", "price": 4.99698367414, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4195,
+    "name": "FTX Token",
+    "symbol": "FTT",
+    "slug": "ftx-token",
+    "quotes": [
+      { "symbol": "USD", "price": 2.97947114426, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3330,
+    "name": "Paxos Standard",
+    "symbol": "PAX",
+    "slug": "paxos-standard",
+    "quotes": [
+      { "symbol": "USD", "price": 1.00243612949, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "DigiByte",
+    "symbol": "DGB",
+    "slug": "digibyte",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0170030576526, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2469,
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "slug": "zilliqa",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0215738671065, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2586,
+    "name": "Synthetix Network Token",
+    "symbol": "SNX",
+    "slug": "synthetix-network-token",
+    "quotes": [
+      { "symbol": "USD", "price": 1.16140448244, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1896,
+    "name": "0x",
+    "symbol": "ZRX",
+    "slug": "0x",
+    "quotes": [
+      { "symbol": "USD", "price": 0.329951552647, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1982,
+    "name": "Kyber Network",
+    "symbol": "KNC",
+    "slug": "kyber-network",
+    "quotes": [
+      { "symbol": "USD", "price": 1.16311792812, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1808,
+    "name": "OMG Network",
+    "symbol": "OMG",
+    "slug": "omg",
+    "quotes": [
+      { "symbol": "USD", "price": 1.4715113693, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4642,
+    "name": "Hedera Hashgraph",
+    "symbol": "HBAR",
+    "slug": "hedera-hashgraph",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0438959106127, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2416,
+    "name": "THETA",
+    "symbol": "THETA",
+    "slug": "theta",
+    "quotes": [
+      { "symbol": "USD", "price": 0.222923437459, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1104,
+    "name": "Augur",
+    "symbol": "REP",
+    "slug": "augur",
+    "quotes": [
+      { "symbol": "USD", "price": 16.5850677091, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4030,
+    "name": "Algorand",
+    "symbol": "ALGO",
+    "slug": "algorand",
+    "quotes": [
+      { "symbol": "USD", "price": 0.234939763734, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2099,
+    "name": "ICON",
+    "symbol": "ICX",
+    "slug": "icon",
+    "quotes": [
+      { "symbol": "USD", "price": 0.322042274397, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1168,
+    "name": "Decred",
+    "symbol": "DCR",
+    "slug": "decred",
+    "quotes": [
+      { "symbol": "USD", "price": 15.0372493215, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4687,
+    "name": "Binance USD",
+    "symbol": "BUSD",
+    "slug": "binance-usd",
+    "quotes": [
+      { "symbol": "USD", "price": 1.00421132874, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2239,
+    "name": "Aave",
+    "symbol": "LEND",
+    "slug": "aave",
+    "quotes": [
+      { "symbol": "USD", "price": 0.125647302894, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1684,
+    "name": "Qtum",
+    "symbol": "QTUM",
+    "slug": "qtum",
+    "quotes": [
+      { "symbol": "USD", "price": 1.65557926324, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3695,
+    "name": "Hyperion",
+    "symbol": "HYN",
+    "slug": "hyperion",
+    "quotes": [
+      { "symbol": "USD", "price": 0.492119153813, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1042,
+    "name": "Siacoin",
+    "symbol": "SC",
+    "slug": "siacoin",
+    "quotes": [
+      { "symbol": "USD", "price": 0.00371904732676, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1567,
+    "name": "Nano",
+    "symbol": "NANO",
+    "slug": "nano",
+    "quotes": [
+      { "symbol": "USD", "price": 1.15932810492, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1214,
+    "name": "Lisk",
+    "symbol": "LSK",
+    "slug": "lisk",
+    "quotes": [
+      { "symbol": "USD", "price": 1.22363657365, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2083,
+    "name": "Bitcoin Gold",
+    "symbol": "BTG",
+    "slug": "bitcoin-gold",
+    "quotes": [
+      { "symbol": "USD", "price": 8.51914878637, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2130,
+    "name": "Enjin Coin",
+    "symbol": "ENJ",
+    "slug": "enjin-coin",
+    "quotes": [
+      { "symbol": "USD", "price": 0.175032980246, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2577,
+    "name": "Ravencoin",
+    "symbol": "RVN",
+    "slug": "ravencoin",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0217098069158, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2563,
+    "name": "TrueUSD",
+    "symbol": "TUSD",
+    "slug": "trueusd",
+    "quotes": [
+      { "symbol": "USD", "price": 1.00245224217, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1274,
+    "name": "Waves",
+    "symbol": "WAVES",
+    "slug": "waves",
+    "quotes": [
+      { "symbol": "USD", "price": 1.23144993834, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4943,
+    "name": "Dai",
+    "symbol": "DAI",
+    "slug": "multi-collateral-dai",
+    "quotes": [
+      { "symbol": "USD", "price": 1.00164869585, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 693,
+    "name": "Verge",
+    "symbol": "XVG",
+    "slug": "verge",
+    "quotes": [
+      { "symbol": "USD", "price": 0.00768115786737, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4779,
+    "name": "HUSD",
+    "symbol": "HUSD",
+    "slug": "husd",
+    "quotes": [
+      { "symbol": "USD", "price": 1.00319956458, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3812,
+    "name": "Flexacoin",
+    "symbol": "FXC",
+    "slug": "flexacoin",
+    "quotes": [
+      { "symbol": "USD", "price": 0.00402884165946, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 213,
+    "name": "MonaCoin",
+    "symbol": "MONA",
+    "slug": "monacoin",
+    "quotes": [
+      { "symbol": "USD", "price": 1.69865918636, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2222,
+    "name": "Bitcoin Diamond",
+    "symbol": "BCD",
+    "slug": "bitcoin-diamond",
+    "quotes": [
+      { "symbol": "USD", "price": 0.593932872042, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2539,
+    "name": "Ren",
+    "symbol": "REN",
+    "slug": "ren",
+    "quotes": [
+      { "symbol": "USD", "price": 0.11672196139, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3351,
+    "name": "ZB Token",
+    "symbol": "ZB",
+    "slug": "zb-token",
+    "quotes": [
+      { "symbol": "USD", "price": 0.214744949009, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2499,
+    "name": "SwissBorg",
+    "symbol": "CHSB",
+    "slug": "swissborg",
+    "quotes": [
+      { "symbol": "USD", "price": 0.139899805502, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2682,
+    "name": "Holo",
+    "symbol": "HOT",
+    "slug": "holo",
+    "quotes": [
+      {
+        "symbol": "USD",
+        "price": 0.000572534938058,
+        "timestamp": 1593517396320
+      }
+    ]
+  },
+  {
+    "id": 2694,
+    "name": "Nexo",
+    "symbol": "NEXO",
+    "slug": "nexo",
+    "quotes": [
+      { "symbol": "USD", "price": 0.168127633663, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1934,
+    "name": "Loopring",
+    "symbol": "LRC",
+    "slug": "loopring",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0886420787125, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2405,
+    "name": "IOST",
+    "symbol": "IOST",
+    "slug": "iostoken",
+    "quotes": [
+      { "symbol": "USD", "price": 0.00590943969714, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3441,
+    "name": "Divi",
+    "symbol": "DIVI",
+    "slug": "divi",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0498716220537, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1759,
+    "name": "Status",
+    "symbol": "SNT",
+    "slug": "status",
+    "quotes": [
+      { "symbol": "USD", "price": 0.024975912564, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1521,
+    "name": "Komodo",
+    "symbol": "KMD",
+    "slug": "komodo",
+    "quotes": [
+      { "symbol": "USD", "price": 0.710409440332, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4172,
+    "name": "Terra",
+    "symbol": "LUNA",
+    "slug": "terra-luna",
+    "quotes": [
+      { "symbol": "USD", "price": 0.211272271041, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3139,
+    "name": "DxChain Token",
+    "symbol": "DX",
+    "slug": "dxchain-token",
+    "quotes": [
+      { "symbol": "USD", "price": 0.00159558672208, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1230,
+    "name": "Steem",
+    "symbol": "STEEM",
+    "slug": "steem",
+    "quotes": [
+      { "symbol": "USD", "price": 0.210965156747, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3155,
+    "name": "Quant",
+    "symbol": "QNT",
+    "slug": "quant",
+    "quotes": [
+      { "symbol": "USD", "price": 6.30228184328, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2830,
+    "name": "Seele-N",
+    "symbol": "SEELE",
+    "slug": "seele",
+    "quotes": [
+      { "symbol": "USD", "price": 0.108346766472, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1776,
+    "name": "MCO",
+    "symbol": "MCO",
+    "slug": "crypto-com",
+    "quotes": [
+      { "symbol": "USD", "price": 4.69145560583, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 5370,
+    "name": "Hive",
+    "symbol": "HIVE",
+    "slug": "hive-blockchain",
+    "quotes": [
+      { "symbol": "USD", "price": 0.243604529546, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2087,
+    "name": "KuCoin Shares",
+    "symbol": "KCS",
+    "slug": "kucoin-shares",
+    "quotes": [
+      { "symbol": "USD", "price": 0.886956361751, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1866,
+    "name": "Bytom",
+    "symbol": "BTM",
+    "slug": "bytom",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0652980862468, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4948,
+    "name": "Nervos Network",
+    "symbol": "CKB",
+    "slug": "nervos-network",
+    "quotes": [
+      { "symbol": "USD", "price": 0.00404258968254, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3890,
+    "name": "Matic Network",
+    "symbol": "MATIC",
+    "slug": "matic-network",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0201631871388, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3218,
+    "name": "Energi",
+    "symbol": "NRG",
+    "slug": "energi",
+    "quotes": [
+      { "symbol": "USD", "price": 2.32331018018, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4847,
+    "name": "Blockstack",
+    "symbol": "STX",
+    "slug": "blockstack",
+    "quotes": [
+      { "symbol": "USD", "price": 0.143611127364, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1698,
+    "name": "Horizen",
+    "symbol": "ZEN",
+    "slug": "horizen",
+    "quotes": [
+      { "symbol": "USD", "price": 7.2373061604, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3437,
+    "name": "ABBC Coin",
+    "symbol": "ABBC",
+    "slug": "abbc-coin",
+    "quotes": [
+      { "symbol": "USD", "price": 0.119522934048, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 4066,
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "slug": "chiliz",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0143852768776, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 463,
+    "name": "BitShares",
+    "symbol": "BTS",
+    "slug": "bitshares",
+    "quotes": [
+      { "symbol": "USD", "price": 0.023544632032, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2300,
+    "name": "WAX",
+    "symbol": "WAXP",
+    "slug": "wax",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0534179870453, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 3718,
+    "name": "BitTorrent",
+    "symbol": "BTT",
+    "slug": "bittorrent",
+    "quotes": [
+      {
+        "symbol": "USD",
+        "price": 0.000301521142136,
+        "timestamp": 1593517396320
+      }
+    ]
+  },
+  {
+    "id": 1732,
+    "name": "Numeraire",
+    "symbol": "NMR",
+    "slug": "numeraire",
+    "quotes": [
+      { "symbol": "USD", "price": 23.731551376, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2137,
+    "name": "Electroneum",
+    "symbol": "ETN",
+    "slug": "electroneum",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0060398979104, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 2758,
+    "name": "Unibright",
+    "symbol": "UBT",
+    "slug": "unibright",
+    "quotes": [
+      { "symbol": "USD", "price": 0.397209324365, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1966,
+    "name": "Decentraland",
+    "symbol": "MANA",
+    "slug": "decentraland",
+    "quotes": [
+      { "symbol": "USD", "price": 0.0412975841791, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1455,
+    "name": "Golem",
+    "symbol": "GNT",
+    "slug": "golem-network-tokens",
+    "quotes": [
+      { "symbol": "USD", "price": 0.056845481222, "timestamp": 1593517396320 }
+    ]
+  },
+  {
+    "id": 1343,
+    "name": "Stratis",
+    "symbol": "STRAT",
+    "slug": "stratis",
+    "quotes": [
+      { "symbol": "USD", "price": 0.559168417935, "timestamp": 1593517396320 }
+    ]
+  }
+]
