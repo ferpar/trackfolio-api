@@ -11,7 +11,7 @@ const devConfig: PoolConfig = {
 const testConfig: PoolConfig = {
     user: process.env.PGUSER as string,
     password: process.env.PGPASSWORD as string,
-    database: process.env.PGDTESTATABASE as string,
+    database: process.env.PGTESTDATABASE as string,
     port: process.env.PGPORT as number|undefined,
     host: process.env.DOCKERCOMPOSE ? "postgres" : "localhost"
 }

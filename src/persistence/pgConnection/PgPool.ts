@@ -6,7 +6,7 @@ export class PgPool {
         this.pool = new Pool( config )
     }
 
-    public query( text:string, params:any, callback?:any): any {
+    public query( text:string, params?:any, callback?:any): any {
         return this.pool.query(text, params, callback)
     }
 

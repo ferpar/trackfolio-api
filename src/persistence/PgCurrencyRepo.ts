@@ -21,22 +21,22 @@ export class PgCurrencyRepo implements ICurrencyRepo {
                     currency.symbol,
                     currency.slug
                 ]
-                this.connection.query(currText, currValues)
+                await this.connection.query(currText, currValues)
     
-                let timestamp = new Date().getTime()
                 //currency quotes are stored in the quotes table
                 for await (let quote of currency.quotes) {
                     const quoteText = 'INSERT INTO quotes ' +
-                    '(quote_id, base_id, symbol, price, timestamp) ' + 
-                    '($1, $2, $3, $4, $5)'
+                    '(base_id, symbol, price, timestamp) ' + 
+                    'VALUES ( $1, $2, $3, $4 )' + 
+                    'ON CONFLICT ON CONSTRAINT pkey_base_quote_timestamp ' +
+                    'DO NOTHING'
                     const quoteValues = [
-                        quote.id,
                         currency.id,
                         quote.symbol,
                         quote.price,
-                        timestamp
+                        quote.timestamp
                     ]
-                    this.connection.query(quoteText, quoteValues)    
+                    await this.connection.query(quoteText, quoteValues)    
                 }
             }
             return 'success'
