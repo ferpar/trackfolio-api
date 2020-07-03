@@ -51,9 +51,7 @@ export class PgCurrencyRepo implements ICurrencyRepo {
         for await (let currencyId of currencyIds) {
             //get currency
             const currText = 'SELECT * FROM currencies WHERE currency_id = $1'
-            const currValues = [
-                currencyId
-            ]
+            const currValues = [ currencyId ]
             const returnedCurrency: ICurrency = await this.connection.query(currText, currValues)
             
             //get currency quotes
